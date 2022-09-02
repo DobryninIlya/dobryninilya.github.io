@@ -15,7 +15,6 @@
 
         function clearall() { document.getElementById("hideAll").style.display = "none"; }
         clearall();
-        Sends event to client
         vkBridge.send('VKWebAppInit');
         document.write(vkBridge.send("VKWebAppGetCommunityToken", {"app_id": 7505621, "group_id": 182372147, "scope": "app_widget"}));
         </script>
